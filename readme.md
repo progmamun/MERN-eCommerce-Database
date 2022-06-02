@@ -11,3 +11,4 @@ Yarn Package:
 - dev : `yarn add -D nodemon concurrently`
 - dotenv: `yarn add dotenv`
 - mongoose: `yarn add mongoose`
+- colors: `yarn add colors`
