@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "private-project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "start-dev": "nodemon server"
   },
   "repository": "https://github.com/progmamun/MERN-eCommerce-Database",
   "author": "Al Mamun Khan",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1"
   }
 }
