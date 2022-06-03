@@ -3,7 +3,10 @@
 
 ---
 ## Technology
-- [Mongoose](https://mongoosejs.com/) : Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. MongoDB is a schema-less NoSQL document database
+- Node.js
+- [Express](https://expressjs.com/): Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- MongoDB
+- [Mongoose](https://mongoosejs.com/) : Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. MongoDB is a schema-less NoSQL document database.
 
 ---
 Yarn Package:
@@ -13,3 +16,4 @@ Yarn Package:
 - mongoose: `yarn add mongoose`
 - colors: `yarn add colors`
 - bcryptjs: `yarn add bcryptjs`
+- async-mid: `yarn add express-async-handler`
