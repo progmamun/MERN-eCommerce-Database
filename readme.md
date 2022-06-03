@@ -12,3 +12,4 @@ Yarn Package:
 - dotenv: `yarn add dotenv`
 - mongoose: `yarn add mongoose`
 - colors: `yarn add colors`
+- bcryptjs: `yarn add bcryptjs`
