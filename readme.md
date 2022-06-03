@@ -16,4 +16,4 @@ Yarn Package:
 - mongoose: `yarn add mongoose`
 - colors: `yarn add colors`
 - bcryptjs: `yarn add bcryptjs`
-- async-mid: `yarn add express-async-handler`
+- async-middleware: `yarn add express-async-handler`
