@@ -17,3 +17,7 @@ Yarn Package:
 - colors: `yarn add colors`
 - bcryptjs: `yarn add bcryptjs`
 - async-middleware: `yarn add express-async-handler`
+- jwt: `yarn add jsonwebtoken`
+
+---
+Node: `$node` crypto `require('crypto').randomBytes(64).toString('hex')`
