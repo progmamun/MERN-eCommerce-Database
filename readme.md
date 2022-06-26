@@ -21,3 +21,4 @@ Yarn Package:
 
 ---
 Node: `$node` crypto `require('crypto').randomBytes(64).toString('hex')`
+paypal: [paypal-sdk-script](https://developer.paypal.com/sdk/js/configuration/)
