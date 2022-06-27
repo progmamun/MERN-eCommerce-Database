@@ -26,6 +26,15 @@ if(!token) {
   res.status(401)
   throw new Error('Not authorized, token is missing')
 }
-});
+})
 
-export { protect };
+const admin = (req, res, next) => {
+  if(req.user && user.isAdmin) {
+    next()
+  } else {
+    res.status(401)
+    throw new Error('Not authorized as an admin')
+  }
+}
+
+export { protect, admin };
